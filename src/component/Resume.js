@@ -15,7 +15,7 @@ return <section id="resume" className='flex flex-col md:flex-row bg-secondary px
     <div className="md:w-1/2 flex justify-center"> 
     <div className='flex flex-col justify-center'>
      <h1 className='text-6xl text-white  font-hero-font border-b-2 mb-5 flex justify-center'>Resume</h1>
-     <p className='text-white py-5 font-hero-font text-2xl'>You can view my resume <a className='btn' href={config.link} download target='_blank' rrel="noreferrer" >Download</a></p>
+     <p className='text-white py-5 font-hero-font text-2xl'>You can view my resume <a className='btn' href={config.link} download target='_blank' rel="noreferrer"  >Download</a></p>
 
      </div>
     
