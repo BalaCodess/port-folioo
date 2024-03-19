@@ -39,7 +39,7 @@ export default function Project(){
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <div className='flex justify-center'>
-                                <a className='btn' target='_blank' href={project.link}>View Project</a>
+                                <a className='btn' target='_blank' href={project.link} rel="noreferrer" >View Project</a>
                             </div>
                         </div>
                     </div>
