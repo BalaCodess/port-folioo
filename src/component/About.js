@@ -4,7 +4,7 @@ import aboutImg from '../Assets/about.png'
 export default function About(){
 return <section id="about"className='flex flex-col md:flex-row bg-secondary px-5'>
     <div className='md:w-1/2 py-5'>
-        <img src={aboutImg}></img>
+        <img src={aboutImg} alt="bala"></img>
     </div>
     <div className="md:w-1/2 flex justify-center"> 
     <div className='flex flex-col justify-center'>

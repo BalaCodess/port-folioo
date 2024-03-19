@@ -7,19 +7,19 @@ export default function Header(){
     <a className="font-bold text-white py-10 text-4xl" href="" >Portfolio</a>
     <nav className="hidden md:block " >
     <ul className="flex text-white py-10 text-2xl ">
-        <li><a href="">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects"> Projects</a></li>
-        <li><a href="#resume"> Resume</a></li>
-        <li><a href="#contact"> Contact</a></li>
+        <li><a>Home</a></li>
+        <li><a href="#about" rel="noopener">About</a></li>
+        <li><a href="#projects" rel="noopener"> Projects</a></li>
+        <li><a href="#resume" rel="noopener"> Resume</a></li>
+        <li><a href="#contact" rel="noopener"> Contact</a></li>
     </ul>
     </nav>
     {toggleMenu && <nav className='block md:hidden '>
     <ul onClick={()=>setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
-        <li><a href="">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects"> Projects</a></li>
-        <li><a href="#contact"> Contact</a></li>
+        <li><a >Home</a></li>
+        <li><a href="#about" rel="noopener">About</a></li>
+        <li><a href="#projects" rel="noopener" > Projects</a></li>
+        <li><a href="#contact" rel="noopener"> Contact</a></li>
     </ul>
 
 

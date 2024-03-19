@@ -1,4 +1,3 @@
-import resumeImg from '../Assets/resume.png'
 
 
 export default function Contact(){
